@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Playstation</title>
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
@@ -21,27 +22,60 @@ MOLTO MEGLIO UL CON DISPLAY FLEX. 3 CONTENITORI (Logo, sezioni, area login/searc
 <!-- DARE PADDING Y A TUTTE LE SEZIONI!!!! -->
 
     <header>
-        <div class="height 20/30px">
-            <div class="container-fluid fixed text-align-right">
-                <img src="" alt="">
+        <!-- Navbar minore black/SONY -->
+        <div class="minor-navbar">
+            <div class="container-fluid position-fixed text-end p-2 bg-black">
+                <img class="redimensioned" src="img/sony_logo.svg" alt="">
             </div> 
         </div>
 
         <nav>
-            <div class="container-fluid d-flex fixed">
-                <div class="logo"></div>
-                
-                <div class="menu-container flex-grow-1">
-                    <ul>
-                        <li><a href="#">Testo</a></li>
-                        <li><a href="#">Testo</a></li>
-                        <li><a href="#">Testo</a></li>
-                        <li><a href="#">Testo</a></li>
-                        <li><a href="#">Testo</a></li>
-                        <li><a href="#">Testo</a></li>
+            <!-- White Navbar -->
+            <div class="container-fluid d-flex position-fixed mt-2 align-items-center">
+                <div class="logo mb-lg-3">
+                    <img src="img/play_logo.svg" alt="">
+                </div>
+                <div class="left-hide d-none d-lg-flex">
+                    <ul class="d-flex flex-grow-1 gap-3 align-items-center">
+                        <li><a href="#">
+                            Giochi
+                            <img src="img/chevron-down-solid.svg" alt="">
+                        </a></li>
+                        <li><a href="#">
+                            Hardware
+                            <img src="img/chevron-down-solid.svg" alt="">
+                        </a></li>
+                        <li><a href="#">
+                            Servizi
+                            <img src="img/chevron-down-solid.svg" alt="">
+                        </a></li>
+                        <li><a href="#">
+                            Novità
+                            <img src="img/chevron-down-solid.svg" alt="">
+                        </a></li>
+                        <li><a href="#">
+                            Fai acquisti
+                            <img src="img/chevron-down-solid.svg" alt="">
+                        </a></li>
+                        <li><a href="#">
+                            Supporto
+                            <img src="img/chevron-down-solid.svg" alt="">
+                        </a></li>
                     </ul>
                 </div>
-                <div class="hamburger-menu margin-left-auto d-none"></div>
+                <div class="right-hide d-none d-lg-flex m-left-auto">
+                    <ul class="d-flex gap-2 align-items-center">
+                        <li><a href="#">
+                            My Playstation
+                            <img src="img/chevron-down-solid.svg" alt="">
+                        </a></li>
+                        <button type="button" class="btn btn-dark white">Accedi</button>
+                        <img src="img/lens.svg" alt="" style="width: 30px;">
+                    </ul>
+                </div>
+                <div class="hamburger-menu p-2 d-lg-none m-left-auto">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
             </div>
         </nav>
     </header>
