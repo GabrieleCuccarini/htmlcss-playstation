@@ -19,6 +19,10 @@ nav {
     width: 10px;
  }
 
+.blue {
+   color: rgb(0,114,206);
+}
+
 .white {
     color: white;
 }
@@ -37,6 +41,7 @@ nav {
 .redimensioned {
     width: 10vw;
     min-width: 60px;
+    max-width: 160px;
 }
 
 .m-left-auto {
@@ -79,4 +84,17 @@ nav {
     border: 3px solid rgb(0,114,206);
     /* border-image-outset: 20px; */
     border-radius: 25px;
+}
+
+.huge-title {
+    font-size: calc(1.5rem + 2vw);
+}
+
+.btn-primary {
+    border-radius: 25px;
+    max-width: 200px;
+}
+
+.section-four .row.px-md-4 .img-container:hover {
+    border-bottom: 3px solid rgb(0,114,206);
 }
