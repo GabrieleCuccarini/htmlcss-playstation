@@ -33,7 +33,7 @@ footer a {
     padding: 5px 0;
 }
 
-footer .text-container a {
+footer .text-container p a {
     text-decoration: underline;
 }
 
@@ -160,4 +160,3 @@ footer .text-container a {
         max-width: 720px
     }
  };
-    
