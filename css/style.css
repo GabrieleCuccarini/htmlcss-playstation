@@ -131,3 +131,11 @@ nav {
     color: rgb(45,100,230);
     border-radius: 25px;
  }
+
+ .section-ten {
+    background-color: rgb(22,28,59);
+ }
+
+ .btn-light.mb-3 {
+    border-radius: 25px;
+ }
