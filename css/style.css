@@ -121,3 +121,13 @@ nav {
 .section-six {
     background-color: rgb(31,31,31);
 }
+
+.section-eight {
+   background-color: rgb(190,188,187);
+}
+
+.section-eight .btn{
+    background-color: rgb(217,218,220);
+    color: rgb(45,100,230);
+    border-radius: 25px;
+ }
