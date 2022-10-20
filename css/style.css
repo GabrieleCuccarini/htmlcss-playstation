@@ -139,3 +139,10 @@ nav {
  .btn-light.mb-3 {
     border-radius: 25px;
  }
+
+ @media screen and (min-width: 992px) {
+     .section-eleven .container-md {
+        max-width: 720px
+    }
+ };
+    
