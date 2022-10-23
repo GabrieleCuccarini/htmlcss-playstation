@@ -7,3 +7,32 @@
     left: -5px;
     top: 22px;
 }
+
+.hamburger-hidden {
+    background-color: lightcyan;
+    position: absolute;
+    display: none;
+    right: -12px;
+}
+
+nav .container-fluid .hamburger-menu .hamburger-hidden ul {
+    padding-left: .8rem;
+}
+
+.hamburger-menu {
+    position: relative;
+}
+
+.hamburger-menu a:focus + .hamburger-hidden {
+    display: flex;
+}
+
+.hamburger-menu button {
+    background-color: white;
+    border: none;
+}
+
+.hamburger-menu i {
+    text-decoration: none;
+    color: rgb(189, 189, 189);
+}
