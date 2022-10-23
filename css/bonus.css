@@ -1,0 +1,9 @@
+
+.dropdown .nav-link:focus + .dropdown-menu {
+    display: block
+}
+
+.dropdown-menu {
+    left: -5px;
+    top: 22px;
+}
